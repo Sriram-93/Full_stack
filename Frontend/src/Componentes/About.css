@@ -1,0 +1,82 @@
+/* About.css */
+
+.about-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 40px 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1f2937;
+  background-color: #ffffff;
+}
+
+/* Header section */
+.about-container header {
+  margin-bottom: 40px;
+}
+
+.about-container h1 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #111827;
+}
+
+.about-intro {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #4b5563;
+  max-width: 700px;
+}
+
+/* Sections */
+.about-container section {
+  margin-bottom: 36px;
+}
+
+.about-container h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 14px;
+  color: #1f2937;
+  border-left: 4px solid var(--primary-2);
+  padding-left: 12px;
+}
+
+/* Lists */
+.about-container ul {
+  padding-left: 22px;
+  margin: 0;
+}
+
+.about-container ul li {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 8px;
+  color: #374151;
+}
+
+/* Highlight strong text */
+.about-container strong {
+  color: #111827;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-container {
+    margin: 30px 16px;
+    padding: 25px 18px;
+  }
+
+  .about-container h1 {
+    font-size: 2.1rem;
+  }
+
+  .about-container h2 {
+    font-size: 1.4rem;
+  }
+
+  .about-intro {
+    font-size: 1rem;
+  }
+}

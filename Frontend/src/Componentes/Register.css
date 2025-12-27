@@ -1,0 +1,73 @@
+/* Page layout */
+.register-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, var(--primary), var(--primary-2));
+    padding: 24px;
+}
+
+/* Card */
+.register-card {
+    background-color: #ffffff;
+    padding: 30px 35px;
+    width: 100%;
+    max-width: 380px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(226, 232, 240, 0.9);
+}
+
+/* Heading */
+.register-card h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333333;
+}
+
+/* Form group */
+.register-container .form-group {
+    margin-bottom: 18px;
+}
+
+.register-container .form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555555;
+}
+
+.register-container .form-group input {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.register-container .form-group input:focus {
+    border-color: var(--primary-2);
+}
+
+/* Button */
+.register-btn {
+    width: 100%;
+    padding: 11px;
+    margin-top: 10px;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-2) 100%);
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.register-btn:hover {
+    background: linear-gradient(135deg, var(--primary-2) 0%, var(--primary) 100%);
+}

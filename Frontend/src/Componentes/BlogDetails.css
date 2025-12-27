@@ -1,0 +1,249 @@
+.blog-details-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.blog-details-container a {
+  display: inline-block;
+  margin-bottom: 16px;
+  text-decoration: none;
+  color: var(--primary-2);
+  font-weight: 500;
+}
+
+.blog-details-container a:hover {
+  text-decoration: underline;
+}
+
+.blog-details-card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  margin-bottom: 32px;
+}
+
+.blog-details-author-tag {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.blog-details-card h1 {
+  margin-top: 12px;
+  font-size: 2.1rem;
+  color: #111827;
+}
+
+.blog-details-card p {
+  margin-top: 18px;
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: #374151;
+}
+
+
+.blog-details-card-footer {
+  margin-top: 20px;
+}
+
+.blog-details-like-btn {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+}
+
+.blog-details-like-btn:hover {
+  background: #f3f4f6;
+}
+
+.blog-details-like-btn.liked {
+  background: #fee2e2;
+  border-color: #fecaca;
+  color: #dc2626;
+}
+
+/* Save button styles */
+.blog-details-save-btn {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+  margin-left: 8px;
+}
+
+.blog-details-save-btn:hover {
+  background: var(--accent-bg);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.blog-details-save-btn.saved {
+  background: var(--accent-bg);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.blog-details-comments-section {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.06);
+}
+
+.blog-details-comments-section h3 {
+  margin-bottom: 18px;
+  font-size: 1.2rem;
+  color: #111827;
+}
+
+
+.blog-details-comment-item {
+  padding: 16px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.blog-details-comment-item:last-child {
+  border-bottom: none;
+}
+
+.blog-details-comment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-details-comment-item strong {
+  color: #111827;
+  font-size: 0.9rem;
+}
+
+.blog-details-comment-item p {
+  margin-top: 6px;
+  color: #374151;
+  line-height: 1.6;
+}
+
+
+.blog-details-time {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.blog-details-edited-tag {
+  font-size: 0.7rem;
+  margin-left: 4px;
+  color: var(--primary-2);
+  font-weight: 500;
+}
+
+
+.blog-details-comment-actions {
+  margin-top: 6px;
+  display: flex;
+  gap: 14px;
+}
+
+.blog-details-comment-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8rem;
+  padding: 0;
+}
+
+.blog-details-comment-actions button:first-child {
+  color: var(--primary-2);
+}
+
+.blog-details-comment-actions button:last-child {
+  color: #dc2626;
+}
+
+.blog-details-comment-actions button:hover {
+  text-decoration: underline;
+}
+
+.blog-details-edit-locked {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.75rem;
+  color: #9ca3af;
+}
+
+.blog-details-comment-item textarea {
+  width: 100%;
+  margin-top: 8px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  resize: vertical;
+}
+
+.blog-details-comment-item textarea:focus {
+  outline: none;
+  border-color: var(--primary-2);
+  box-shadow: 0 0 0 2px rgba(202, 162, 92, 0.18);
+}
+
+
+.blog-details-comment-box {
+  margin-top: 24px;
+}
+
+.blog-details-comment-box textarea {
+  width: 100%;
+  min-height: 90px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #d1d5db;
+  font-size: 0.95rem;
+  resize: vertical;
+}
+
+.blog-details-comment-box textarea:focus {
+  outline: none;
+  border-color: var(--primary-2);
+  box-shadow: 0 0 0 2px rgba(202, 162, 92, 0.18);
+}
+
+.blog-details-comment-box button {
+  margin-top: 12px;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-2) 100%);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.blog-details-comment-box button:hover {
+  background: linear-gradient(135deg, var(--primary-2) 0%, var(--primary) 100%);
+}
+
+.blog-details-comment-box button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+
+.loader {
+  text-align: center;
+  padding: 60px;
+  font-size: 1rem;
+  color: #6b7280;
+}
